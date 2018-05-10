@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1142768D20A4D69D00F58E82 /* BackgroundColorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1142768C20A4D69D00F58E82 /* BackgroundColorProvider.swift */; };
 		11829D4D2094B82900797758 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11829D4C2094B82900797758 /* AppDelegate.swift */; };
 		11829D4F2094B82900797758 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11829D4E2094B82900797758 /* ViewController.swift */; };
 		11829D522094B82900797758 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11829D502094B82900797758 /* Main.storyboard */; };
 		11829D542094B82A00797758 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11829D532094B82A00797758 /* Assets.xcassets */; };
 		11829D572094B82A00797758 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11829D552094B82A00797758 /* LaunchScreen.storyboard */; };
+		11A5CB6A20A4909800FFD6A3 /* FactProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A5CB6920A4909800FFD6A3 /* FactProvider.swift */; };
+		11EDBA082094E3550076C296 /* DrawExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EDBA072094E3550076C296 /* DrawExamples.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1142768C20A4D69D00F58E82 /* BackgroundColorProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundColorProvider.swift; sourceTree = "<group>"; };
 		11829D492094B82900797758 /* MyIOSTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyIOSTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11829D4C2094B82900797758 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11829D4E2094B82900797758 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		11829D532094B82A00797758 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11829D562094B82A00797758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11829D582094B82A00797758 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11A5CB6920A4909800FFD6A3 /* FactProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactProvider.swift; sourceTree = "<group>"; };
+		11EDBA072094E3550076C296 /* DrawExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawExamples.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				11829D532094B82A00797758 /* Assets.xcassets */,
 				11829D552094B82A00797758 /* LaunchScreen.storyboard */,
 				11829D582094B82A00797758 /* Info.plist */,
+				11EDBA072094E3550076C296 /* DrawExamples.swift */,
+				11A5CB6920A4909800FFD6A3 /* FactProvider.swift */,
+				1142768C20A4D69D00F58E82 /* BackgroundColorProvider.swift */,
 			);
 			path = MyIOSTest;
 			sourceTree = "<group>";
@@ -135,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11EDBA082094E3550076C296 /* DrawExamples.swift in Sources */,
 				11829D4F2094B82900797758 /* ViewController.swift in Sources */,
+				1142768D20A4D69D00F58E82 /* BackgroundColorProvider.swift in Sources */,
+				11A5CB6A20A4909800FFD6A3 /* FactProvider.swift in Sources */,
 				11829D4D2094B82900797758 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
